@@ -6,7 +6,9 @@ void main() {
   runApp(
     const MaterialApp(
       home: Scaffold(
-        body: GradientContainer(),
+        body: GradientContainer(
+          colors: [Colors.red, Colors.blue],
+        ),
       ),
     ),
   ); // A core function in Dart - Execution.
